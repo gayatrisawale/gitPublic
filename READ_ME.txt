@@ -1,3 +1,4 @@
 First File to upload git public
 
--This Folder contains all PHP practice code
+
+F12: is directly used to start inspect element , also ctrl+shift+I performs the same
