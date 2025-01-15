@@ -6,7 +6,27 @@
   <title>CSS Box Model</title>
   <style>
     /* Write your CSS code here */
-
+    div {
+      height: 200px;
+      width: 200px;
+    }
+    p{margin: 0;}
+    .box1{
+        background-color: cadetblue;
+        padding: 20px;
+        border: black, solid 10px;
+      }
+    .box2{
+        background-color: gold;
+        border: black solid;
+        border-width: 20px 10px;
+        margin-left: 260px;
+      }
+    .box3{
+      background-color: indianred;
+      border: red solid 10px ;
+      margin-left: 40px;
+    }
   </style>
 </head>
 
@@ -30,5 +50,9 @@ Hint: Use the CSS inspector in Chrome.
 -->
 
 </body>
-
+<div class="box1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+  id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+  dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p></div>
+<div class="box2">Test box 2</div>
+<div class="box3">Test box 3</div>
 </html>
