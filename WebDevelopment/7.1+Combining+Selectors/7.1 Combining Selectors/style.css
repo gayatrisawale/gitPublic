@@ -1,1 +1,58 @@
 /* Write your code here: */
+
+/*
+1. Group Rule: applying the rule on both selector with comma saperated.
+selector could be classess, ids, elements
+
+selector, selector
+*/
+
+h1, h2{
+    color: blueviolet;
+}
+
+/*
+2. Child selector Rule:  parent > child- should be a direct child on pne level
+selector> selector
+
+example:
+div > p 
+.box >p
+*/
+
+.box > p {
+    color: firebrick;
+}
+
+/*
+3. Descendant Rule:  anscester descendant,  descendant could be many level deep
+selector selector
+
+.box li: li is grand child of box
+*/
+
+.box li {
+    color:blue;
+}
+
+/*
+4. Chaining selector Rule: apply rule to all these combination
+selectorselector
+
+saperation could be by . or # as a class and Id symbol
+*/
+li.done {
+    color:seagreen;
+}
+
+/*
+5. Combining Combiners selector Rule
+selector selectorselector
+*/
+
+ul p.done{
+    color:aqua;
+    font-size : 0.5rem;
+}
+
+
